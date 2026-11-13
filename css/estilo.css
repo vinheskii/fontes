@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#video-fundo {
+position: fixed;
+top: 50%;
+left: 50%;
+width: 100vw;
+height: 100vh;
+transform: translate(-50%, -50%);
+border: none;
+z-index: -1;
+pointer-events: none;
+}
+
+body {
+    background-color: #111;
+    color: #eee;
+    font-family: 'Merriweather', serif;
+    max-width: 700px;
+    padding: 50px;
+}
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 80px;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'special elite', monospace;
+    font-size: 40px;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+}
+
+.negrito {
+    font-weight: 700;
+}
+
